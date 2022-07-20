@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <configSections>
+    <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <section name="ExchangeSync.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+    </sectionGroup>
+  </configSections>
+  <configProtectedData>
+    <providers>
+      <add useMachineProtection="true" name="DPAPIProtection" type="System.Configuration.DpapiProtectedConfigurationProvider, System.Configuration, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    </providers>
+  </configProtectedData>
+  <appSettings>
+    <!-- General Profile Field -->
+    <add key="ProfileName" value="" />
+    <add key="ProfileDesc" value="" />
+    <!-- CRM Server and Field Details -->
+    <add key="CRMServiceUrl" value="" />
+    <add key="CRMAuthenticationProviderType" value="" />
+    <add key="CRMUsername" value="" />
+    <add key="CRMDomain" value="" />
+    <!-- Exchange Server Details -->
+    <add key="ExchangeServerName" value="" />
+    <add key="ExchangeServerVersion" value="" />
+    <add key="ADUsername" value="" />
+    <add key="ADDomain" value="" />
+    <!-- Licensing, Locale and AutoSync Details -->
+    <add key="Locale" value="en-US" />
+    <add key="ClientSettingsProvider.ServiceUri" value="" />
+  </appSettings>
+  <applicationSettings>
+    <ExchangeSync.Properties.Settings>
+      <setting name="CRMPassword" serializeAs="String">
+        <value />
+      </setting>
+      <setting name="ADPassword" serializeAs="String">
+        <value />
+      </setting>
+    </ExchangeSync.Properties.Settings>
+  </applicationSettings>
+  <startup>
+    <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.0" />
+  </startup>
+</configuration>

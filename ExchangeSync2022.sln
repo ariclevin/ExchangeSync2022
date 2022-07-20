@@ -1,0 +1,164 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync", "ExchangeSync\ExchangeSync.csproj", "{C3B839A9-04C6-4290-AB44-E5FC02AED155}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Extensions", "ExchangeSync.Extensions\ExchangeSync.Extensions.csproj", "{0818149F-EB31-4420-A9CD-8E9166759FB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Settings", "ExchangeSync.Settings\ExchangeSync.Settings.csproj", "{828C6E78-B842-4580-9D0E-79B817DBD4D0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Security", "ExchangeSync.Security\ExchangeSync.Security.csproj", "{F329C86F-C115-4040-BDE9-BDE828D75762}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.CRM", "ExchangeSync.CRM\ExchangeSync.CRM.csproj", "{06DD4885-546B-4391-9C70-157C9252CFBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Core", "ExchangeSync.Core\ExchangeSync.Core.csproj", "{CC0F7F34-B2E7-4C0C-BD9B-D1E0DBB1387E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Exchange", "ExchangeSync.Exchange\ExchangeSync.Exchange.csproj", "{60470373-1F9D-4938-BACC-ACF75C1BCE24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.License", "ExchangeSync.License\ExchangeSync.License.csproj", "{0FC57A4E-6786-4C56-A687-885592EAC7CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Config", "ExchangeSync.Configuration\ExchangeSync.Config.csproj", "{CAAFE2BA-C0CC-4B93-8F3A-E31670F0004C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Framework.Excel", "ExchangeSync.Framework.Excel\ExchangeSync.Framework.Excel.csproj", "{3E9C18C0-F964-4579-9EB9-C691CDBE111F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Trace", "ExchangeSync.Trace\ExchangeSync.Trace.csproj", "{FC8CF7F3-014F-488A-9694-D1CF05C098C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Messaging", "ExchangeSync.Messaging\ExchangeSync.Messaging.csproj", "{1624FAEE-BEA6-441B-96BB-4B545D0A0F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Updater", "ExchangeSync.Updater\ExchangeSync.Updater.csproj", "{54EDB388-C1A4-437E-86F8-48AC8BE6DBBD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.ConsoleSync", "ExchangeSync.ConsoleSync\ExchangeSync.ConsoleSync.csproj", "{7118519A-F83F-44C9-B95C-22D2166159CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExchangeSync.Resource", "ExchangeSync.Resource\ExchangeSync.Resource.csproj", "{C12C1F91-E533-4B5E-85C6-0056AB63F202}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General", "General", "{BB74036A-3E54-4993-B644-3CA350C2DBD7}"
+	ProjectSection(SolutionItems) = preProject
+		ReleaseNotes.txt = ReleaseNotes.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3B839A9-04C6-4290-AB44-E5FC02AED155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3B839A9-04C6-4290-AB44-E5FC02AED155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3B839A9-04C6-4290-AB44-E5FC02AED155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3B839A9-04C6-4290-AB44-E5FC02AED155}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0818149F-EB31-4420-A9CD-8E9166759FB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0818149F-EB31-4420-A9CD-8E9166759FB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0818149F-EB31-4420-A9CD-8E9166759FB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0818149F-EB31-4420-A9CD-8E9166759FB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828C6E78-B842-4580-9D0E-79B817DBD4D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828C6E78-B842-4580-9D0E-79B817DBD4D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828C6E78-B842-4580-9D0E-79B817DBD4D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828C6E78-B842-4580-9D0E-79B817DBD4D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F329C86F-C115-4040-BDE9-BDE828D75762}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F329C86F-C115-4040-BDE9-BDE828D75762}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F329C86F-C115-4040-BDE9-BDE828D75762}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F329C86F-C115-4040-BDE9-BDE828D75762}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06DD4885-546B-4391-9C70-157C9252CFBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06DD4885-546B-4391-9C70-157C9252CFBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06DD4885-546B-4391-9C70-157C9252CFBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06DD4885-546B-4391-9C70-157C9252CFBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0F7F34-B2E7-4C0C-BD9B-D1E0DBB1387E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0F7F34-B2E7-4C0C-BD9B-D1E0DBB1387E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0F7F34-B2E7-4C0C-BD9B-D1E0DBB1387E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0F7F34-B2E7-4C0C-BD9B-D1E0DBB1387E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60470373-1F9D-4938-BACC-ACF75C1BCE24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60470373-1F9D-4938-BACC-ACF75C1BCE24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60470373-1F9D-4938-BACC-ACF75C1BCE24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60470373-1F9D-4938-BACC-ACF75C1BCE24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC57A4E-6786-4C56-A687-885592EAC7CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC57A4E-6786-4C56-A687-885592EAC7CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC57A4E-6786-4C56-A687-885592EAC7CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC57A4E-6786-4C56-A687-885592EAC7CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAAFE2BA-C0CC-4B93-8F3A-E31670F0004C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAAFE2BA-C0CC-4B93-8F3A-E31670F0004C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAAFE2BA-C0CC-4B93-8F3A-E31670F0004C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAAFE2BA-C0CC-4B93-8F3A-E31670F0004C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E9C18C0-F964-4579-9EB9-C691CDBE111F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9C18C0-F964-4579-9EB9-C691CDBE111F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9C18C0-F964-4579-9EB9-C691CDBE111F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9C18C0-F964-4579-9EB9-C691CDBE111F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC8CF7F3-014F-488A-9694-D1CF05C098C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC8CF7F3-014F-488A-9694-D1CF05C098C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC8CF7F3-014F-488A-9694-D1CF05C098C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC8CF7F3-014F-488A-9694-D1CF05C098C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1624FAEE-BEA6-441B-96BB-4B545D0A0F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1624FAEE-BEA6-441B-96BB-4B545D0A0F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1624FAEE-BEA6-441B-96BB-4B545D0A0F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1624FAEE-BEA6-441B-96BB-4B545D0A0F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54EDB388-C1A4-437E-86F8-48AC8BE6DBBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54EDB388-C1A4-437E-86F8-48AC8BE6DBBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54EDB388-C1A4-437E-86F8-48AC8BE6DBBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7118519A-F83F-44C9-B95C-22D2166159CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7118519A-F83F-44C9-B95C-22D2166159CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7118519A-F83F-44C9-B95C-22D2166159CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7118519A-F83F-44C9-B95C-22D2166159CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C12C1F91-E533-4B5E-85C6-0056AB63F202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12C1F91-E533-4B5E-85C6-0056AB63F202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12C1F91-E533-4B5E-85C6-0056AB63F202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12C1F91-E533-4B5E-85C6-0056AB63F202}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6145D0E2-56BD-4959-B9CC-94B69BF76347}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 16
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://briteglobal.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ExchangeSync.Configuration\\ExchangeSync.Config.csproj
+		SccProjectName1 = ExchangeSync.Configuration
+		SccLocalPath1 = ExchangeSync.Configuration
+		SccProjectUniqueName2 = ExchangeSync.ConsoleSync\\ExchangeSync.ConsoleSync.csproj
+		SccProjectName2 = ExchangeSync.ConsoleSync
+		SccLocalPath2 = ExchangeSync.ConsoleSync
+		SccProjectUniqueName3 = ExchangeSync.Core\\ExchangeSync.Core.csproj
+		SccProjectName3 = ExchangeSync.Core
+		SccLocalPath3 = ExchangeSync.Core
+		SccProjectUniqueName4 = ExchangeSync.CRM\\ExchangeSync.CRM.csproj
+		SccProjectName4 = ExchangeSync.CRM
+		SccLocalPath4 = ExchangeSync.CRM
+		SccProjectUniqueName5 = ExchangeSync.Exchange\\ExchangeSync.Exchange.csproj
+		SccProjectName5 = ExchangeSync.Exchange
+		SccLocalPath5 = ExchangeSync.Exchange
+		SccProjectUniqueName6 = ExchangeSync.Extensions\\ExchangeSync.Extensions.csproj
+		SccProjectName6 = ExchangeSync.Extensions
+		SccLocalPath6 = ExchangeSync.Extensions
+		SccProjectUniqueName7 = ExchangeSync.Framework.Excel\\ExchangeSync.Framework.Excel.csproj
+		SccProjectName7 = ExchangeSync.Framework.Excel
+		SccLocalPath7 = ExchangeSync.Framework.Excel
+		SccProjectUniqueName8 = ExchangeSync.License\\ExchangeSync.License.csproj
+		SccProjectName8 = ExchangeSync.License
+		SccLocalPath8 = ExchangeSync.License
+		SccProjectUniqueName9 = ExchangeSync.Messaging\\ExchangeSync.Messaging.csproj
+		SccProjectName9 = ExchangeSync.Messaging
+		SccLocalPath9 = ExchangeSync.Messaging
+		SccProjectUniqueName10 = ExchangeSync.Resource\\ExchangeSync.Resource.csproj
+		SccProjectName10 = ExchangeSync.Resource
+		SccLocalPath10 = ExchangeSync.Resource
+		SccProjectUniqueName11 = ExchangeSync.Security\\ExchangeSync.Security.csproj
+		SccProjectName11 = ExchangeSync.Security
+		SccLocalPath11 = ExchangeSync.Security
+		SccProjectUniqueName12 = ExchangeSync.Settings\\ExchangeSync.Settings.csproj
+		SccProjectName12 = ExchangeSync.Settings
+		SccLocalPath12 = ExchangeSync.Settings
+		SccProjectUniqueName13 = ExchangeSync.Trace\\ExchangeSync.Trace.csproj
+		SccProjectName13 = ExchangeSync.Trace
+		SccLocalPath13 = ExchangeSync.Trace
+		SccProjectUniqueName14 = ExchangeSync.Updater\\ExchangeSync.Updater.csproj
+		SccProjectName14 = ExchangeSync.Updater
+		SccLocalPath14 = ExchangeSync.Updater
+		SccProjectUniqueName15 = ExchangeSync\\ExchangeSync.csproj
+		SccProjectName15 = ExchangeSync
+		SccLocalPath15 = ExchangeSync
+	EndGlobalSection
+EndGlobal

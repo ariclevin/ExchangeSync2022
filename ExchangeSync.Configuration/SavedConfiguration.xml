@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Configuration>
+  <UserInfo>
+    <Company></Company>
+    <WebSite></WebSite>
+    <PhoneNumber></PhoneNumber>
+    <FirstName></FirstName>
+    <LastName></LastName>
+    <EmailAddress></EmailAddress>
+  </UserInfo>
+  <CRMInfo>
+    <AuthenticationType Index="0"></AuthenticationType>
+    <CRMServiceUrl></CRMServiceUrl>
+    <IntegratedAuthentication></IntegratedAuthentication>
+    <CRMCredentials>
+      <UserName></UserName>
+      <Domain></Domain>
+    </CRMCredentials>
+  </CRMInfo>
+  <ExchangeInfo>
+    <ExchangeServerVersion></ExchangeServerVersion>
+    <ExchangeServerUrl></ExchangeServerUrl>
+    <ExchangeCredentials>
+      <UserName></UserName>
+      <Domain></Domain>
+    </ExchangeCredentials>
+    <ExchangeDistributionGroupOU></ExchangeDistributionGroupOU>
+    <ExchangeContactOU></ExchangeContactOU>
+    <InternetDomainSuffix></InternetDomainSuffix>
+  </ExchangeInfo>
+</Configuration>
